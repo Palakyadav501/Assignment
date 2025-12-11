@@ -1,0 +1,10 @@
+1. What is CSS Grid, and how is it different from Flexbox?
+->CSS Grid is a two-dimensional layout system used for creating complex layouts with rows and columns.
+->Flexbox is a one-dimensional layout system best used for aligning elements along a single row or column.
+
+2.Describe the CSS Grid properties grid-template-columns and grid-template-rows.
+->grid-template-columns defines the number of columns in a grid and the width of each column.
+->grid-template-rows defines the number of rows in a grid and the height of each row.
+
+3.Explain the purpose of grid-area and how it is used to create complex layouts.
+->The grid-area property in CSS Grid is a powerful tool that allows developers to position grid items precisely within a grid layout.

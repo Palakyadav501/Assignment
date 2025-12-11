@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(187, 201, 201);
+        }
+        .container{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+        header{
+            height: 100px;
+            width: 400px;
+            background-color: gray;
+            text-align: center;
+            border-radius: 10px;
+        }
+        main{
+            height: 200px;
+            width: 400px;
+            background-color:whitesmoke;
+            text-align: center;
+            border-radius: 10px;
+        }
+        footer{
+            height: 100px;
+            width: 400px;
+            background-color: gray;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        @media only screen and(min-width:768px){
+            .container{
+                flex-direction: row;
+                justify-content: space-between;
+            }
+            header{
+                width: 20%;
+            }
+            main{
+                width: 30%;
+            }
+            footer{
+                width: 20%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Flexbox Layout</h1>
+            <p>Welcome to Flexbox layout.</p>
+        </header>
+
+        <main>
+            <h2>Main Content</h2>
+            <p>This is the main content part of webpage</p>
+        </main>
+        <footer>
+            <h2>Footer</h2>
+            <p> My Flexbox Page | All rights reserved</p>
+        </footer>
+    </div>
+</body>
+</html>

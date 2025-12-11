@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Card</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    align-items: center; 
+    width: 300px; 
+    height: 420px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 5px 2px 5px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+.card-img {
+    width: 90%;
+    height: 80%;
+    border-radius: 5px;
+}
+.card-img img{
+    height: 100%;
+    width: 100%;
+}
+
+.title {
+    font-size: 18px;
+    margin: 0;
+    text-align: center;
+}
+
+.description {
+    font-size:15px;
+    color: gray;
+    text-align: center;
+    flex-grow: 1; 
+}
+
+.price {
+    font-size: 16px;
+    font-weight: 800;
+    color: skyblue;
+}
+
+    </style>
+</head>
+<body>
+    <div class="card">
+        <img src="/CSS/IMAGES/card1.webp" alt="Product  Image" class="card-img">
+        <h3 class="title">Product Title</h3>
+        <p class="description">This is a brief description of the product. It highlights key features and benefits.</p>
+        <span class="price">$49.99</span>
+    </div>
+</body>
+</html>

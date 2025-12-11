@@ -1,0 +1,14 @@
+1.Explain the purpose of Flexbox and its benefits for responsive design.
+->Flexbox, short for Flexible Box Layout, is a CSS layout module designed to help developers align and distribute space among items within a container.
+->Flexbox is widely used in modern web development because it greatly improves responsiveness.
+
+
+2.Describe the main properties of Flexbox (flex-direction, justify-content, alignitems).
+-> flex-direction defines the main axis along which Flexbox items are placed. It determines whether items are laid out horizontally or vertically.
+->justify-content controls how items are distributed along the main axis (the direction set by flex-direction). It also manages spacing between items.
+->align-items controls the alignment of items along the cross axis, which is perpendicular to the main axis.
+
+3.Discuss the difference between flex-grow, flex-shrink, and flex-basis.
+->flex-grow defines how much an item should grow relative to other items when there is extra space in the flex container.
+->flex-shrink determines how much an item should shrink relative to others when the container does not have enough space.
+->flex-basis sets the initial size of a flex item before free space is distributed. It defines the item's starting width (in rows) or height (in columns).

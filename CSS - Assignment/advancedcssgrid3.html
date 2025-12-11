@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Post Layout</title>
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+    <style>
+    .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 300px; 
+    grid-template-rows: auto 1fr auto; 
+    height: 600px;
+    gap: 20px; 
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.header {
+     grid-column-start: 1;
+    grid-column-end: -1;
+    background-color: powderblue;
+    padding: 20px;
+    text-align: center;
+}
+
+.header a{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
+h1:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.main{
+    grid-row: 2; 
+    background-color: rgb(175, 209, 223);
+    padding: 20px;
+}
+
+.sidebar {
+    grid-row: 2;
+    background-color: rgb(192, 192, 231);
+    padding: 20px;
+}
+
+.sidebar a{
+    color: black;
+    text-decoration: none;
+}
+
+.footer {
+    background-color: silver;
+    grid-column-start: 1;
+    grid-column-end: -1;
+    padding: 20px;
+    text-align: center;
+}
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <header class="header">
+            <h1>My Blog</h1>
+            <nav>
+                <a href="">Home</a> | <a href="">About</a> | <a href="">Contact</a>
+            </nav>
+        </header>
+        
+        <main class="main">
+            <article>
+                <h2>Sample Blog Post Title</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </article>
+        </main>
+        
+        <aside class="sidebar">
+            <h3>Related Posts</h3>
+            <ul>
+                <li><a href="">Post 1: consectetur adipisicing elit.</a></li>
+                <li><a href="">Post 2: Lorem ipsum dolor sit amet.</a></li>
+                <li><a href="">Post 3: Lorem ipsum dolor sit amet consectetur.</a></li>
+            </ul>
+        </aside>
+        
+        <footer class="footer">
+            <p>Footer Section</p>
+        </footer>
+    </div>
+</body>
+</html>

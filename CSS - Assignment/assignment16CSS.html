@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            width: 90%;
+            margin: auto;
+            border: 2px solid black;
+            gap: 30px;
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+        }
+        img{
+            height: 300px;
+            width: 300px;
+            margin: auto;
+        }
+
+        img:hover{
+            transform: scale(1.1);
+            box-shadow: 10px 10px 10px thistle;
+            transition: 2s;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <img src="/IMAGES/img1.jpg" alt="">
+        <img src="/IMAGES/img3.jpg" alt="">
+        <img src="/IMAGES/img5.jpeg" alt="">
+        <img src="/IMAGES/img2.jpg" alt="">
+        <img src="/IMAGES/img4.jpeg" alt="">
+        <img src="/IMAGES/img6.jpeg" alt="">
+    </div>
+</body>
+</html>

@@ -1,0 +1,58 @@
+.container{
+    /* height: 500px; */
+    width: 90%;
+    margin: auto;
+    /* background-color: aqua; */
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    /* grid-template-rows: 2; */
+    gap: 20px;
+}
+.card{
+    height: 450px;
+    width: 300px;
+    box-shadow: 10px 10px 10px rgb(204, 166, 166);
+    /* border: 2px solid black; */
+    border-radius: 10px;
+}
+.card-img{
+    height: 70%;
+    width: 90%;
+    margin: auto;
+    transform: translateY(15px);
+    background-color: black;
+}
+
+.card-img img{
+    height: 100%;
+    width: 100%;
+}
+
+.card-img:hover{
+    transform:scaleX(1.1);
+    transition: 2s;
+    
+}
+
+.price{
+    width: 90%;
+    margin: auto;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+button{
+    height: 40px;
+    width: 150px;
+    border: none;
+    background-color: rgb(204, 166, 166);
+    color: black;
+}
+
+button:hover{
+    background-color: rgb(54, 54, 54);
+    transition: 2s;
+    color: white;
+}
+

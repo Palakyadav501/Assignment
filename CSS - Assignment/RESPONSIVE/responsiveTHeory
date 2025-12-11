@@ -1,0 +1,8 @@
+1.Define responsive design and its importance in modern web development.
+->Responsive design is a web development approach that ensures websites automatically adjust their layout, content, and elements based on the screen size and device being used.
+
+2.Explain the role of media queries in responsive design.
+->Media queries are a key CSS feature that allow a website to change its layout and styles based on the characteristics of the user’s device, such as screen size, resolution, or orientation.
+
+3.Describe how viewport settings affect mobile displays.
+->The viewport is the visible area of a web page on a device’s screen. On mobile devices, the viewport is much smaller than on desktops, so web pages must be scaled and adjusted properly to fit these smaller screens.

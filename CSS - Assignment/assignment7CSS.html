@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid system</title>
+    <style>
+        .box{
+            height: 300px;
+            width: 300px;
+        }
+        .box img{
+            height: 100%;
+            width: 100%;
+        }
+        .main{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            gap: 20px;
+            width: 90%;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <img src="/IMAGES/img1.jpg" class="box" alt="">
+        <img src="/IMAGES/img2.jpg" class="box" alt="">
+        <img src="/IMAGES/img3.jpg" class="box" alt="">
+        <img src="/IMAGES/img4.jpeg" class="box" alt="">
+        <img src="/IMAGES/img5.jpeg" class="box" alt="">
+        <img src="/IMAGES/img6.jpeg" class="box" alt="">
+    </div>
+</body>
+</html>
