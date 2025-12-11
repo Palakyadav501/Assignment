@@ -1,0 +1,25 @@
+    header {
+      background: gray;
+      color: black;
+      padding: 30px;
+      text-align: center;
+    }
+    nav {
+      background: black;
+      padding: 10px;
+      text-align: center;
+      gap: 40px;
+    }
+    nav a {
+        color: white;
+        text-decoration: none;
+        /* column-gap: 100px; */
+    }
+   
+    footer {
+      background: gainsboro;
+      color: black;
+      text-align: center;
+      padding: 7px;
+      margin-top: 20px;
+    }
