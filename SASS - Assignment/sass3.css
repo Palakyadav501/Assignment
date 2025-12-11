@@ -1,0 +1,27 @@
+body {
+  font-family: Arial, sans-serif;
+  color: red;
+  line-height: 20px;
+}
+
+h1, h2, h3, h4 {
+  font-weight: 600;
+  color: thistle;
+}
+
+body {
+  background-color: thistle;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: gray;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+main {
+  padding: 20px;
+}/*# sourceMappingURL=sass3.css.map */

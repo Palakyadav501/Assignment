@@ -1,0 +1,28 @@
+.card {
+  height: 500px;
+  width: 300px;
+  box-shadow: 10px 10px 10px thistle;
+  justify-content: center;
+  margin: auto;
+  background-color: whitesmoke;
+}
+
+.card-image {
+  height: 60%;
+  width: 90%;
+  border-radius: 8px;
+  transform: translateX(15px);
+}
+
+.card-title {
+  font-size: 20px;
+}
+
+.btn {
+  height: 40px;
+  width: 150px;
+  background-color: rgb(192, 152, 192);
+  border: 2px solid pink;
+  transform: translateX(60px);
+  margin-top: 20px;
+}/*# sourceMappingURL=sass2.css.map */

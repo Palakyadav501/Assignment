@@ -1,0 +1,34 @@
+$primary-color: gray;
+$secondary-color: green;
+$text-color: red;
+$background-color: thistle;
+
+
+body {
+  font-family: Arial, sans-serif;
+  color: $text-color;
+  line-height: 20px;
+}
+
+h1, h2, h3, h4 {
+  font-weight: 600;
+  color: $background-color;
+}
+
+body {
+  background-color: $background-color;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: $primary-color;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+main {
+  padding: 20px;
+}
+

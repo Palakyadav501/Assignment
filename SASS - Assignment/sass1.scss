@@ -1,0 +1,133 @@
+$bg_color:"blue";
+$primary-color: skyblue;
+$secondary-color: #0056b3;
+$bg-color: white;
+$btn-bgc:skyblue;
+$text-color: gray;
+$light-bg: whitesmoke;
+$dark-bg: darkgray;
+$font-family: Arial, sans-serif;
+$font-size-base: 16px;
+$font-size-heading: 28px;
+$font-size-subheading: 24px;
+$font-size-small: 18px;
+$spacing-: 20px;
+
+@mixin btn 
+{
+    background-color: $btn-bgc;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: $font-size-base;
+    transition: background-color 0.3s;
+
+    &:hover {
+        background-color: $hover-color;
+    }
+}
+
+body {
+    font-family: $font-family;
+    margin: 0;
+    padding: 0;
+    background-color: $bg-color;
+    color: $text-color;
+    line-height: 1.6;
+}
+
+header {
+    background-color: $primary-color;
+    color: white;
+    padding: $spacing;
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        h1 {
+            margin: 0;
+            font-size: $font-size-subheading;
+        }
+
+        ul {
+            list-style: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+
+            li {
+                margin-left: $spacing;
+
+                a {
+                    color: white;
+                    text-decoration: none;
+                    font-size: $font-size-small;
+                }
+            }
+        }
+    }
+}
+
+section {
+    padding: $spacing * 2;
+    margin: $spacing 0;
+
+    h2 {
+        font-size: $font-size-heading;
+        margin-bottom: $spacing;
+    }
+}
+
+.about {
+    background-color: $light-bg;
+}
+
+.projects {
+    background-color: #e9ecef;
+
+    .project-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: $spacing;
+
+        .project-card {
+            background-color: $light-bg;
+            padding: $spacing;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+            h3 {
+                font-size: 22px;
+                margin-bottom: 10px;
+            }
+
+            p {
+                margin-bottom: 15px;
+            }
+
+            .btn {
+                @include btn();
+            }
+        }
+    }
+}
+
+footer {
+    background-color: $dark-bg;
+    color: white;
+    text-align: center;
+    padding: $spacing;
+
+    h2 {
+        font-size: $font-size-subheading;
+        margin-bottom: 10px;
+    }
+
+    .btn {
+        @include btn();
+    }
+}

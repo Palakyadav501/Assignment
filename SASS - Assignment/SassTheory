@@ -1,0 +1,15 @@
+(1) Describe the benefits of using a CSS preprocessor like Sass or Less.
+->1. Use of Variables :-  preprocessor allows developers to store values such as color,size,fonts &   space and use more than one time.
+2.Nesting :- Nesting enables writing CSS that visually matches HTML structure. This improves readability and reduces repetitive selectors.
+3.Mixins :- Mixins function like reusable blocks of code. Developers can define a styling pattern once and reuse it wherever needed.
+
+
+(2)Explain variables, nesting, and mixins in Sass.
+-> Variables :- Variables in Sass are used to store reusable values such as colors, font sizes, widths, or any other CSS value.
+-> Nesting :- Nesting allows developers to write CSS rules in a hierarchical structure that mirrors the HTML structure. It reduces repetition and makes the code easier to read.
+-> Mixins :- Mixins are reusable blocks of code that help avoid repetition. They can contain CSS properties and accept parameters, making them highly flexible.
+
+
+(3)Describe the purpose of inheritance and partials in Sass.
+-> Inheritance :- Inheritance in Sass allows one selector to inherit the styles of another using the @extend directive. This reduces duplication and ensures that common styling logic is shared efficiently across multiple elements.
+-> Partials are used to break CSS into smaller, manageable files. This modular approach helps organize code better, especially in large projects.
