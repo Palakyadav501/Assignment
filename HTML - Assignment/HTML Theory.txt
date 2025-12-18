@@ -1,0 +1,18 @@
+1. Explain the structure of an HTML document and the purpose of DOCTYPE.
+-> An HTML document is organized into a standard structure that helps the browser correctly display web content.
+	 => DOCTYPE Declaration (<!DOCTYPE html>) -  It is the first line of an HTML document. It informs the browser that the document follows the HTML5 standard.
+	=> <html> Tag - This is the root element of the HTML document. All other elements are enclosed within it.
+	=> <head> Section - The head section contains metadata about the document, such as the title of the page, character encoding, links to stylesheets, and scripts
+	=> <body> Section - The body section contains the actual content of the webpage that is visible to users, such as text, images, links, tables, and forms.
+-> Purpose of DOCTYPE - The DOCTYPE declaration tells the web browser which version of HTML is being used.
+
+2. List and explain at least five common HTML tags used in website design.
+-> <h1> to <h6> Tags - These tags are used to define headings. <h1> represents the most important heading, while <h6> represents the least important heading.
+   <p> Tag - The <p> tag is used to define a paragraph of text and helps in organizing content clearly.
+   <a> Tag - The <a> (anchor) tag is used to create hyperlinks that connect one webpage to another or to different sections of the same page.
+   <title> Tag - The <title> tag defines the title of the webpage, which appears on the browser’s title bar or tab.
+   <body> Tag - The <body> tag contains the main content of the webpage that is visible to users, including text, images, links, tables, and forms.
+
+3. Describe the difference between block-level and inline elements in HTML.
+-> Block-Level Elements - Block-level elements always start on a new line and occupy the full width of their parent container. They are mainly used to structure the     	layout of a webpage.
+-> Inline Elements - Inline elements do not start on a new line and only take up as much width as their content requires. They are usually used to format small parts of      	text within block elements.
