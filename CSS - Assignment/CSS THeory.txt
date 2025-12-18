@@ -1,0 +1,30 @@
+1. Explain the difference between inline, internal, and external CSS.
+-> 1) Inline CSS - Inline CSS is written directly inside an HTML element using the style attribute. It affects only that   	specific element.
+-> 2) Internal CSS - Internal CSS is written inside the <style> tag within the <head> section of an HTML document. It 	affects the entire webpage.
+-> 3) External CSS - External CSS is written in a separate (.css) file and linked to the HTML document using the <link> tag.
+
+2. Describe CSS selectors and list the types of selectors.
+-> CSS selectors are used to select HTML elements so that styles can be applied to them. A selector tells the browser which elements the CSS rules should affect.
+ => Types of Selectors :-
+    1) Element Selector
+    2) Class Selector
+    3) ID Selectors
+    4) Universal Selector
+    5) Group Selector
+    6) Attribute Selector
+
+3. Discuss the CSS box model and its components.
+-> The CSS Box Model describes how HTML elements are structured and spaced on a webpage. Every element is considered as a rectangular box, and the box model defines the layout, size, and spacing of that element.
+-> Components of the CSS Box Model
+Content - This is the actual content of the element, such as text or images.
+	The width and height properties apply to the content area.
+
+Padding - Padding is the space between the content and the border.
+	It creates space inside the element and increases its overall size.
+
+Border - The border surrounds the padding and content.
+	It can have different styles, colors, and thickness.
+
+Margin - Margin is the outermost space around the element.
+	It creates space between the element and other elements on the webpage.
+	
