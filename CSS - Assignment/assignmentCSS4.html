@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Custom Lists</title>
+    <link rel="stylesheet" href="">
+    <style>
+.custom-ul, .custom-ol {
+    list-style-type: none;
+}
+
+.custom-ul li {
+    font-style: italic;
+    margin: 8px 0;
+    color: blue;
+    font-weight: 900;
+}
+
+.custom-ul li::before {
+    content: "★ ";
+    color: rgb(184, 156, 211);
+}
+
+.custom-ol li {
+    color: darkgreen;
+    font-weight: bold;
+    margin: 8px 0;
+}
+
+.custom-ol li::before {
+    content: "➤ ";
+    color: lightgreen;
+}
+
+    </style>
+</head>
+<body>
+
+    <h2>Unordered List</h2>
+    <ul class="custom-ul">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ul>
+
+    <h2>Ordered List</h2>
+    <ol class="custom-ol">
+        <li>Design</li>
+        <li>Develop</li>
+        <li>Deploy</li>
+    </ol>
+
+</body>
+</html>
