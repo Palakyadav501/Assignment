@@ -1,9 +1,0 @@
-1.Explain how modals and carousels work in Bootstrap.
-->Modals :- A modal is a popup dialog box that appears on top of the page content. It is commonly used for forms, alerts, confirmations, or displaying additional information without leaving the current page.
-->Carousels -> A carousel is a slideshow component used to cycle through images or content. It is often used for banners, featured posts, or product highlights.
-
-2.Describe the purpose of utility classes in Bootstrap and give examples.
-->Utility classes in Bootstrap are small, single-purpose CSS classes designed to apply specific styling quickly and efficiently. Instead of writing custom CSS for spacing, colors, alignment, or display properties, developers can use built-in utility classes to style elements directly in the HTML.
-
-3.Discuss the importance of customizing Bootstrap variables for unique styling.
-->Bootstrap provides a powerful and flexible design framework, but websites built with the default styles often look similar. Customizing Bootstrap variables allows developers to reshape the framework to match the unique branding and design needs of a project while still benefiting from Bootstrap’s structure and components.
